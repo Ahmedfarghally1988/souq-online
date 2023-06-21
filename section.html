@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>	سوق اونلاين</title>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href=" img/fav.png" type="image/x-icon">
+
+    <link rel="apple-touch-icon" type="image/x-icon" href=" images/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href=" images/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href=" images/apple-touch-icon-114x114-precomposed.png">
+    <!-- Base Css -->
+    <link href=" css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href=" css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+    <link href=" css/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
+    <link href=" font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href=" fonts/font.css" rel="stylesheet" type="text/css"/>
+    <link href=" css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/style-menu-mobile.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link href=" css/responsive.css" rel="stylesheet" type="text/css"/>
+    <link href=" css/rtl.css" rel="stylesheet" type="text/css"/>
+</head>
+
+
+    <body>
+
+
+    <header>
+        <section class="top_par">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-8 col-sm-8 col-6">
+                        <div class="login_box">
+                            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                            <p><a href="#"> خول / تسجيل </a> </p>
+                        </div>
+                        <div class="box_favorite d-none d-md-block d-lg-block d-xl-block d-sm-block">
+                            <p><a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> <em>2</em> </a></p>
+                            <p><a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> <em>2</em> </a></p>
+                            <p><a href="#"> <i class="fa fa-envelope" aria-hidden="true"></i> <em>2</em> </a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-sm-2 col-6">
+                        <div class="dropdown">
+                            <button class="btn-city dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe"></i> المدينة
+                            </button>
+                            <div class="dropdown-menu block-city" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">كل المدن</a>
+                                <a class="dropdown-item" href="#">القاهرة</a>
+                                <a class="dropdown-item" href="#">الاسكندرية</a>
+                                <a class="dropdown-item" href="#">اسوان</a>
+                                <a class="dropdown-item" href="#">الاسماعيلية</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-sm-2 col-12">
+                        <div class="add_ads">
+                            <a href="#">
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                <p> أضف أعلانك  </p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="search_home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-3 col-12">
+                        <div class="logo">
+                            <img src="img/logo.png" alt="logo" title="logo">
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-lg-10 col-xl-10 col-sm-9 col-12 mr-auto">
+                        <div class="row">
+                            <div class="col-md-4 mt-2 mr-auto pr-lg-0">
+                                <div class="input-group block_search">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input class="form-control form-control-sm style_form" type="text" placeholder="أبحث عن سلعة">
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-2 pr-lg-0">
+                                <div class="input-group block_search">
+                                    <div class="input-group-append d-md-none d-xl-block d-lg-none">
+                                        <span class="input-group-text"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                    </div>
+                                    <select class="js-example-disabled-results w-75">
+                                        <option value="">أختر المدينة</option>
+                                        <option value="">الرياض</option>
+                                        <option value="">جدة</option>
+                                        <option value="">مكة المكرمة</option>
+                                        <option value="">حائل</option>
+                                        <option value="">الدمام</option>
+                                        <option value="">الطائف</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xl-1 mt-2 pr-lg-0">
+                                <button type="submit" class="btn_search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu_main">
+            <div class="top_menu bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <a class="navbar-brand" href="#">الرئيسية</a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav nav-main-home ml-auto">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                عربيات وقطع غيار
+                                            </a>
+                                            <div class="dropdown-menu drowpdown-menu-main" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#">سيارات للبيع</a>
+                                                <a class="dropdown-item" href="#">سيارات للايجار</a>
+                                                <a class="dropdown-item" href="#">كاوتش , بطاريات , زيوت</a>
+                                                <a class="dropdown-item" href="#">قطع غيار سيارات</a>
+                                                <a class="dropdown-item" href="#">موتوسيكلات</a>
+                                                <a class="dropdown-item" href="#">اكسسوارات سيارات</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                عقارات
+                                            </a>
+                                            <div class="dropdown-menu drowpdown-menu-main" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#">سيارات للبيع</a>
+                                                <a class="dropdown-item" href="#">سيارات للايجار</a>
+                                                <a class="dropdown-item" href="#">كاوتش , بطاريات , زيوت</a>
+                                                <a class="dropdown-item" href="#">قطع غيار سيارات</a>
+                                                <a class="dropdown-item" href="#">موتوسيكلات</a>
+                                                <a class="dropdown-item" href="#">اكسسوارات سيارات</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                اجهزة الكترونية
+                                            </a>
+                                            <div class="dropdown-menu drowpdown-menu-main" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#">سيارات للبيع</a>
+                                                <a class="dropdown-item" href="#">سيارات للايجار</a>
+                                                <a class="dropdown-item" href="#">كاوتش , بطاريات , زيوت</a>
+                                                <a class="dropdown-item" href="#">قطع غيار سيارات</a>
+                                                <a class="dropdown-item" href="#">موتوسيكلات</a>
+                                                <a class="dropdown-item" href="#">اكسسوارات سيارات</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                اثاث وديكور
+                                            </a>
+                                            <div class="dropdown-menu drowpdown-menu-main" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#">سيارات للبيع</a>
+                                                <a class="dropdown-item" href="#">سيارات للايجار</a>
+                                                <a class="dropdown-item" href="#">كاوتش , بطاريات , زيوت</a>
+                                                <a class="dropdown-item" href="#">قطع غيار سيارات</a>
+                                                <a class="dropdown-item" href="#">موتوسيكلات</a>
+                                                <a class="dropdown-item" href="#">اكسسوارات سيارات</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown more-gategory">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                المزيد من الفئات
+                                            </a>
+                                            <div class="dropdown-menu drowpdown-menu-main" aria-labelledby="navbarDropdown">
+                                                <div class="row">
+                                                    <div class="col-md-3 col-lg-3">
+                                                        <h3> الموضة والجمال </h3>
+                                                        <a href="#">زراعه</a>
+                                                        <a href="#">اعمال بناء</a>
+                                                        <a href="#">اماكن وخروجات</a>
+                                                        <a href="#">معدات مطاعه</a>
+                                                        <a href="#">مستلزمات اطفال</a>
+                                                        <a href="#">مسلتزمات طبية</a>
+                                                    </div>
+                                                    <div class="col-md-3 col-lg-3">
+                                                        <h3> الموضة والجمال </h3>
+                                                        <a href="#">زراعه</a>
+                                                        <a href="#">اعمال بناء</a>
+                                                        <a href="#">اماكن وخروجات</a>
+                                                        <a href="#">معدات مطاعه</a>
+                                                        <a href="#">مستلزمات اطفال</a>
+                                                        <a href="#">مسلتزمات طبية</a>
+                                                    </div>
+                                                    <div class="col-md-3 col-lg-3">
+                                                        <h3> الموضة والجمال </h3>
+                                                        <a href="#">زراعه</a>
+                                                        <a href="#">اعمال بناء</a>
+                                                        <a href="#">اماكن وخروجات</a>
+                                                        <a href="#">معدات مطاعه</a>
+                                                        <a href="#">مستلزمات اطفال</a>
+                                                        <a href="#">مسلتزمات طبية</a>
+                                                    </div>
+                                                    <div class="col-md-3 col-lg-3">
+                                                        <h3> الموضة والجمال </h3>
+                                                        <a href="#">زراعه</a>
+                                                        <a href="#">اعمال بناء</a>
+                                                        <a href="#">اماكن وخروجات</a>
+                                                        <a href="#">معدات مطاعه</a>
+                                                        <a href="#">مستلزمات اطفال</a>
+                                                        <a href="#">مسلتزمات طبية</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-12">
+                <div class="ads-728x90 m-auto">
+                    <img src="img/728x90-kikkoman.webp">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="mian_content mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-xl-3 col-12 mb-5">
+
+                        <aside class="left-filter">
+
+                            <div class="search_adv mb-3">
+                                <div class="col-md-12">
+                                    <h3>  <i class="fa fa-search" aria-hidden="true"></i> بحث متقدم </h3>
+                                </div>
+                                <form>
+                                    <div class="col-md-12">
+                                        <select class="form-control st_select">
+                                            <option value="">الفئة</option>
+                                            <option value="">سيارات وقطع غيار</option>
+                                            <option value="">اثاث وديكور</option>
+                                            <option value="">اجهزة الكترونية</option>
+                                            <option value="">موبايلات وتابلت</option>
+                                            <option value="">ادوات مطبخ</option>
+                                            <option value="">تجارة وصناعة</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <select class="form-control st_select">
+                                            <option value="">نوع الاعلان</option>
+                                            <option value="">معروض للبيع</option>
+                                            <option value="">معروض للشراء</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <select class="js-example-disabled-results form-control st_select">
+                                            <option value="">أختر المدينة</option>
+                                            <option value="">القاهرة</option>
+                                            <option value="">الاسكندرية</option>
+                                            <option value="">مرسى مطروح</option>
+                                            <option value="">الاسماعيلية</option>
+                                            <option value="">سوهاج</option>
+                                            <option value="">بنى سويف</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <select class="form-control st_select">
+                                            <option value="">الحالة</option>
+                                            <option value="">جديد</option>
+                                            <option value="">مستعمل</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn_search_aside"><i class="fa fa-search" aria-hidden="true"></i> بحث </button>
+                                    </div>
+                                </form>
+                            </div>
+                            
+                            <div class="ads-250 mb-3">
+                                <img src="img/seaturtle.png" class="w-100">
+                            </div>
+
+                            <div class="search_adv bg-white mb-3">
+                                <div class="col-md-12">
+                                    <h3>   السعر</h3>
+                                </div>
+                                <form class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>من</label>
+                                            <input  class="form-control form-control-sm style_form bg-light" value="0" type="number" placeholder="0">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>الى</label>
+                                            <input  class="form-control form-control-sm style_form bg-light" value="1000" type="number" placeholder="1000">
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                            <div class="search_adv bg-white mb-3">
+                                <div class="col-md-12">
+                                    <h3> الحالة </h3>
+                                </div>
+                                <form class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">جديد</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">مستعمل</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                            <div class="search_adv bg-white mb-3">
+                                <div class="col-md-12">
+                                    <h3> نوع الاعلان </h3>
+                                </div>
+                                <form class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">معروض للبيع</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">مطلوب للشراء</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                            <div class="search_adv bg-white mb-3">
+                                <div class="col-md-12">
+                                    <h3> السنة </h3>
+                                </div>
+                                <form class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>من</label>
+                                            <input  class="form-control form-control-sm style_form bg-light" value="2000" type="number" placeholder="0">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>الى</label>
+                                            <input  class="form-control form-control-sm style_form bg-light" value="2023" type="number" placeholder="1000">
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                            <div class="search_adv bg-white mb-3">
+                                <div class="col-md-12">
+                                    <h3> الماركة </h3>
+                                </div>
+                                <form class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">سامسونج</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">ابل</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">اوبو</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">شاومي</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">ريدمي</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">نوكيا</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">هاواي</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">ابل</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-check check--filter">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">ابل</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+
+
+                        </aside>
+
+                    </div>
+                    <div class="col-md-12 col-lg-12 col-xl-9 col-12">
+                        <div class="row">
+                            <div class="col-md-10 col-lg-10 col-8 d-none d-md-block d-lg-block">
+                                <div class="change_view">
+                                    <button type="submit" class="btn_change_view view_list_page"> <i class="fa fa-list" aria-hidden="true"></i> </button>
+                                    <button type="submit" class="btn_change_view view_grid_page active"> <i class="fa fa-th-large" aria-hidden="true"></i> </button>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-lg-2 col-4">
+                                <button type="submit" class="btn_change_view view_img_only"> بالصور فقط <i class="fa fa-camera" aria-hidden="true"></i>  </button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-12 mb-3">
+                                <div class="result_search">
+                                    <h3>نتيجة البحث  1500 أعلان متاح</h3>
+                                    <ul>
+                                        <li>الفئة : <em> سيارات </em> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> </li>
+                                        <li>النوع : <em> رينو </em> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> </li>
+                                        <li>الموديل : <em> لوجان </em> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> </li>
+                                        <li>سنة الصنع : <em> 2020 </em> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> </li>
+                                        <li>الحالة : <em> جديد </em> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> </li>
+                                        <li>طريقة الدفع : <em> كاش </em> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> </li>
+                                        <li> اللون : <em> سيلفر </em> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list_view d-none">
+                            <div class="view_list_item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-4 col-12">
+                                        <div class="img_block_ads">
+                                            <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                            <label type="submit" class="add_favorite active"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            <span class="special--ads"> اعلان مميز </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-8 order_mob col-12">
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="tit_main_item p-0">
+                                                <span class="price--ads">  <i class="fa fa-tag" aria-hidden="true"></i>    12500 جنية </span>
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة فقط بـ 650 الف جنية فقط لاغير </a> </h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block">
+                                                <label><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                                <label> <i class="fa fa-clock-o" aria-hidden="true"></i>  من1 يومين  </label>
+                                                <label> <a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>  مكالمة  </a> </label>
+                                                <label> <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i>  واتساب  </a> </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="view_list_item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-4 col-12">
+                                        <div class="img_block_ads">
+                                            <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                            <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            <span class="special--ads"> اعلان مميز </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-8 order_mob col-12">
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="tit_main_item p-0">
+                                                <span class="price--ads">  <i class="fa fa-tag" aria-hidden="true"></i>    12500 جنية </span>
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة فقط بـ 650 الف جنية فقط لاغير </a> </h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block">
+                                                <label><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                                <label> <i class="fa fa-clock-o" aria-hidden="true"></i>  من1 يومين  </label>
+                                                <label> <a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>  مكالمة  </a> </label>
+                                                <label> <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i>  واتساب  </a> </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="view_list_item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-4 col-12">
+                                        <div class="img_block_ads">
+                                            <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                            <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            <span class="special--ads"> اعلان مميز </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-8 order_mob col-12">
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="tit_main_item p-0">
+                                                <span class="price--ads">  <i class="fa fa-tag" aria-hidden="true"></i>    12500 جنية </span>
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة فقط بـ 650 الف جنية فقط لاغير </a> </h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block">
+                                                <label><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                                <label> <i class="fa fa-clock-o" aria-hidden="true"></i>  من1 يومين  </label>
+                                                <label> <a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>  مكالمة  </a> </label>
+                                                <label> <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i>  واتساب  </a> </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="ads-ben-page">
+                                <a href="#"> <img src="img/banner-2.jpg"> </a>
+                            </div>
+                            <div class="view_list_item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-4 col-12">
+                                        <div class="img_block_ads">
+                                            <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                            <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-8 order_mob col-12">
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="tit_main_item p-0">
+                                                <span class="price--ads">  <i class="fa fa-tag" aria-hidden="true"></i>    12500 جنية </span>
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة فقط بـ 650 الف جنية فقط لاغير </a> </h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block">
+                                                <label><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                                <label> <i class="fa fa-clock-o" aria-hidden="true"></i>  من1 يومين  </label>
+                                                <label> <a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>  مكالمة  </a> </label>
+                                                <label> <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i>  واتساب  </a> </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="view_list_item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-4 col-12">
+                                        <div class="img_block_ads">
+                                            <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                            <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-8 order_mob col-12">
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="tit_main_item p-0">
+                                                <span class="price--ads">  <i class="fa fa-tag" aria-hidden="true"></i>    12500 جنية </span>
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة فقط بـ 650 الف جنية فقط لاغير </a> </h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block">
+                                                <label><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                                <label> <i class="fa fa-clock-o" aria-hidden="true"></i>  من1 يومين  </label>
+                                                <label> <a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>  مكالمة  </a> </label>
+                                                <label> <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i>  واتساب  </a> </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="view_list_item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-4 col-12">
+                                        <div class="img_block_ads">
+                                            <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                            <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-8 order_mob col-12">
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="tit_main_item p-0">
+                                                <span class="price--ads">  <i class="fa fa-tag" aria-hidden="true"></i>    12500 جنية </span>
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة فقط بـ 650 الف جنية فقط لاغير </a> </h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block">
+                                                <label><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                                <label> <i class="fa fa-clock-o" aria-hidden="true"></i>  من1 يومين  </label>
+                                                <label> <a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>  مكالمة  </a> </label>
+                                                <label> <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i>  واتساب  </a> </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="view_list_item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-4 col-12">
+                                        <div class="img_block_ads">
+                                            <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                            <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-8 order_mob col-12">
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="tit_main_item p-0">
+                                                <span class="price--ads">  <i class="fa fa-tag" aria-hidden="true"></i>    12500 جنية </span>
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة فقط بـ 650 الف جنية فقط لاغير </a> </h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block">
+                                                <label><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                                <label> <i class="fa fa-clock-o" aria-hidden="true"></i>  من1 يومين  </label>
+                                                <label> <a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>  مكالمة  </a> </label>
+                                                <label> <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i>  واتساب  </a> </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid_view">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite active"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                                <span class="special--ads"> اعلان مميز </span>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة </a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية  </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                                <span class="special--ads"> اعلان مميز </span>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة </a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                                <span class="special--ads"> اعلان مميز </span>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة </a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/car-3.jpg" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#">   رينو سانديرو ستيب واي بالتقسيط 2021 باقل سعر و اقل فائدة </a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/iphone.webp" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#"> ايفون 13برو لون ازرق اقسم بالله بشوكه  ما في الهواء سعر نهائي </a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية  </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/iphone.webp" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#"> ايفون 13برو لون ازرق اقسم بالله بشوكه  ما في الهواء سعر نهائي </a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-12 col-12">
+                                    <div class="ads-ben-page">
+                                       <a href="#"> <img src="img/banner-3.jpg"> </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/iphone.webp" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#">  ايفون 13برو لون ازرق اقسم بالله بشوكه  ما في الهواء سعر نهائي  </a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/iphone.webp" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#"> ايفون 13برو لون ازرق اقسم بالله بشوكه  ما في الهواء سعر نهائي </a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/lines.jpg" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#">سرير معدني120 بأقل الأسعار والجودة عالية والشحن مجانا للقاهرة</a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية  </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/lines.jpg" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#">سرير معدني120 بأقل الأسعار والجودة عالية والشحن مجانا للقاهرة</a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/lines.jpg" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#">سرير معدني120 بأقل الأسعار والجودة عالية والشحن مجانا للقاهرة</a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-xl-4 mb-4 col-12">
+                                    <div class="view_grid_item">
+                                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 p-0">
+                                            <div class="img_block_ads">
+                                                <a href="#"> <img src="img/lines.jpg" alt="" title=""> </a>
+                                                <label type="submit" class="add_favorite"> <i class="fa fa-heart" aria-hidden="true"></i></label>
+                                            </div>
+                                            <div class="tit_main_item">
+                                                <h3><a href="#">سرير معدني120 بأقل الأسعار والجودة عالية والشحن مجانا للقاهرة</a> </h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-6">
+                                                <div class="favorite_block">
+                                                    <label>
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                        <strong> منذ 3 يوم </strong>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6">
+                                                <span class="price_grid"> 12500 جنية </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 p-0">
+                                            <div class="option_block row">
+                                                <label class="col-md-6 col-6"><a href="#"> <i class="fa fa-user" aria-hidden="true"></i>  أسم المعلن </a> </label>
+                                                <label class="col-md-6 col-6"> <i class="fa fa-map-marker" aria-hidden="true"></i>  القاهرة  </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-12">
+                                <div class="ads-728x90 m-auto">
+                                    <img src="img/728x90-kikkoman.webp">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    <footer class="mt-5">
+        <div class="container mb-0">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-6">
+                    <a href="#" class="suggestion">   أضف اعلانك  <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6 ml-auto">
+                    <a href="#" class="suggestion" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">   هل لديك أقتراح  <i class="fa fa-comments" aria-hidden="true"></i> </a>
+                </div>
+            </div>
+
+
+
+
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-lg model_mass" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h5 class="modal-title" id="exampleModalLabel">   هل لديك أقتراح  <i class="fa fa-comments" aria-hidden="true"></i></h5>
+
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">العنوان :</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">نص الرسالة :</label>
+                                    <textarea class="form-control" rows="5" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success"><i class="fa fa-whatsapp" aria-hidden="true"></i> واتساب </button>
+                            <button type="button" class="btn btn-dark"><i class="fa fa-telegram" aria-hidden="true"></i> تليجرام </button>
+                            <button type="button" class="btn btn-info"> ارسال </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <div class="text_bottom">
+                        <img src="img/logo.png" alt="" title="">
+                        <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-4">
+                        <a href="#" class="menu_footer"> الرئيسية </a>
+                        <a href="#" class="menu_footer"> من نحن  </a>
+                        <a href="#" class="menu_footer"> اتصل بنا </a>
+                        <a href="#" class="menu_footer"> معلومات السلامة </a>
+                        <a href="#" class="menu_footer"> الشروط </a>
+                        <a href="#" class="menu_footer"> استخدام الموقع </a>
+                        <a href="#" class="menu_footer"> تعرّف علينا </a>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <a href="#" class="menu_footer"> الرئيسية </a>
+                        <a href="#" class="menu_footer"> من نحن  </a>
+                        <a href="#" class="menu_footer"> اتصل بنا </a>
+                        <a href="#" class="menu_footer"> معلومات السلامة </a>
+                        <a href="#" class="menu_footer"> الشروط </a>
+                        <a href="#" class="menu_footer"> استخدام الموقع </a>
+                        <a href="#" class="menu_footer"> تعرّف علينا </a>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <a href="#" class="menu_footer"> الرئيسية </a>
+                        <a href="#" class="menu_footer"> من نحن  </a>
+                        <a href="#" class="menu_footer"> اتصل بنا </a>
+                        <a href="#" class="menu_footer"> معلومات السلامة </a>
+                        <a href="#" class="menu_footer"> الشروط </a>
+                        <a href="#" class="menu_footer"> استخدام الموقع </a>
+                        <a href="#" class="menu_footer"> تعرّف علينا </a>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <a href="#" class="menu_footer"> الرئيسية </a>
+                        <a href="#" class="menu_footer"> من نحن  </a>
+                        <a href="#" class="menu_footer"> اتصل بنا </a>
+                        <a href="#" class="menu_footer"> معلومات السلامة </a>
+                        <a href="#" class="menu_footer"> الشروط </a>
+                        <a href="#" class="menu_footer"> استخدام الموقع </a>
+                        <a href="#" class="menu_footer"> تعرّف علينا </a>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <a href="#" class="menu_footer"> الرئيسية </a>
+                        <a href="#" class="menu_footer"> من نحن  </a>
+                        <a href="#" class="menu_footer"> اتصل بنا </a>
+                        <a href="#" class="menu_footer"> معلومات السلامة </a>
+                        <a href="#" class="menu_footer"> الشروط </a>
+                        <a href="#" class="menu_footer"> استخدام الموقع </a>
+                        <a href="#" class="menu_footer"> تعرّف علينا </a>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <a href="#" class="menu_footer"> الرئيسية </a>
+                        <a href="#" class="menu_footer"> من نحن  </a>
+                        <a href="#" class="menu_footer"> اتصل بنا </a>
+                        <a href="#" class="menu_footer"> معلومات السلامة </a>
+                        <a href="#" class="menu_footer"> الشروط </a>
+                        <a href="#" class="menu_footer"> استخدام الموقع </a>
+                        <a href="#" class="menu_footer"> تعرّف علينا </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12">
+                        <div class="copy_right">
+                            <p>جميع الحقوق محفوظة@ تصميم وبرمجة شركة 2020</p>
+                            <div class="social_footer">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <!-- bootstrap js -->
+    <script src="js/popper.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.js" type="text/javascript"></script>
+    <script src="js/kwg-video-player.min.js"></script>
+    <!-- menus script -->
+    <script src="js/menu.js"></script>
+    <!-- custom -->
+
+    <script src=" js/select2.min.js" type="text/javascript"></script>
+    <script src=" js/custom.js" type="text/javascript"></script>
+
+
+
+    </body>
+
+
+</html>
