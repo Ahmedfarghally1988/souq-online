@@ -122,6 +122,13 @@
     .number_phone {
         font-size: 12px;
     }
+
+    .ah-actions {
+        float: right;
+    }
+    #messages-main .ms-menu {
+        width: 70%;
+    }
    
 }
 
